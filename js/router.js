@@ -104,11 +104,16 @@ const Router = {
   
   // 处理初始路由
   _handleInitialRoute() {
-    let hash = window.location.hash.slice(1) || Routes.HOME;
+    let hash = window.location.hash.slice(1) || '';
     
     // 确保 hash 以 / 开头
-    if (!hash.startsWith('/')) {
+    if (hash && !hash.startsWith('/')) {
       hash = '/' + hash;
+    }
+    // 如果 URL 中没有指定具体路径（即直接访问根地址），
+    // 始终先展示换雀页，让用户选雀
+    if (!hash || hash === Routes.HOME) {
+      hash = Routes.BIRD;
     }
     
     this._navigateTo(hash, false, true);
