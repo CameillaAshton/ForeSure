@@ -1,0 +1,107 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - generic:
+        - generic:
+          - img "雀定"
+        - heading "嗨！选一只雀吧" [level=1]
+        - paragraph: 每只雀性格不同，帮你决策的风格也不一样～
+      - generic:
+        - generic:
+          - img "普通雀"
+          - generic: 普通雀
+          - generic: 温和中立，说话有理有据（但细想是废话）
+          - generic: "\"昨晚托梦给我选的，信我\""
+        - generic:
+          - img "毒舌雀"
+          - generic: 毒舌雀
+          - generic: 直白毒舌，不废话，就是说你
+          - generic: "\"就这个吧，你挑三拣四半天了\""
+        - generic:
+          - img "禅雀"
+          - generic: 禅雀
+          - generic: 佛系洒脱，万事皆可，随缘就好
+          - generic: "\"选哪个都一样，但你非要选，就这个吧\""
+        - generic:
+          - img "傲娇雀"
+          - generic: 傲娇雀
+          - generic: 口是心非，嘴硬但其实很用心
+          - generic: "\"才不是专门帮你选的这个呢，只是刚好碰上而已\""
+    - generic:
+      - generic:
+        - generic: 雀定
+        - generic: 🐦 选雀中…
+      - generic: 🎲 快速决定
+      - generic:
+        - generic:
+          - generic: 🍜
+          - generic: 今天吃啥
+          - generic: 12个选项
+        - generic:
+          - generic: 🌳
+          - generic: 今天去哪玩
+          - generic: 10个选项
+        - generic:
+          - generic: 👗
+          - generic: 今天穿啥
+          - generic: 8个选项
+        - generic:
+          - generic: 🎬
+          - generic: 看什么电影
+          - generic: 8个选项
+        - generic:
+          - generic: ☕
+          - generic: 喝点什么
+          - generic: 9个选项
+      - generic: ✨ 我的场景
+      - generic:
+        - paragraph: 还没有自定义场景，在下方添加吧 👇
+      - button "＋ 添加自定义场景"
+    - generic:
+      - generic:
+        - button "←":
+          - generic: ←
+        - generic: 🎲 场景
+      - generic:
+        - generic: 🐦
+        - generic:
+          - generic: 普通雀
+          - generic: 让我来帮你决定！
+      - generic:
+        - generic:
+          - generic: 候选选项：
+          - button "✏️ 编辑"
+      - generic:
+        - button "🎲 帮我决定！"
+        - button "✋ 我自己定！"
+    - generic:
+      - generic:
+        - button "←":
+          - generic: ←
+        - generic: 历史记录
+      - generic:
+        - button "🗑️ 清空历史"
+    - navigation [ref=e3]:
+      - button "🏠 首页" [ref=e4] [cursor=pointer]:
+        - generic [ref=e5]: 🏠
+        - generic [ref=e6]: 首页
+      - button "🐦 换雀" [ref=e7] [cursor=pointer]:
+        - generic [ref=e8]: 🐦
+        - generic [ref=e9]: 换雀
+      - button "📋 历史" [ref=e10] [cursor=pointer]:
+        - generic [ref=e11]: 📋
+        - generic [ref=e12]: 历史
+    - generic [ref=e15]:
+      - generic [ref=e16]: 🧋
+      - generic [ref=e17]: 请雀喝杯奶茶吧
+      - generic [ref=e18]:
+        - text: 如果你觉得雀定帮到了你
+        - text: 点击下方去爱发电支持开发者吧 ✨
+      - link "💡 去爱发电支持 →" [ref=e19] [cursor=pointer]:
+        - /url: https://afdian.com
+        - generic [ref=e20]: 💡
+        - generic [ref=e21]: 去爱发电支持
+        - generic [ref=e22]: →
+      - generic [ref=e23]: 不用扫码、不留隐私，雀感谢你 💚
+      - button "下次一定！" [ref=e25] [cursor=pointer]
+  - button "🧋" [ref=e13] [cursor=pointer]
